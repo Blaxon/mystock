@@ -7,7 +7,7 @@ import urllib2
 import locale  
 from config import *
 
-locale.setlocale(locale.LC_ALL, 'zh_CN.utf8')
+locale.setlocale(locale.LC_ALL, 'zh_CN.UTF-8')
 
 def init_env():
     return curses.initscr()
